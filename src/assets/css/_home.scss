@@ -1,0 +1,31 @@
+.justify-content-center{
+    justify-content: center !important;
+}
+
+.d-flex{
+    display: flex !important;
+}
+
+.logoSize{
+    height: 50px !important;
+    width: 50px !important;
+    background-color: $card-color;
+    fill: $font-color-1;
+}
+
+.backGround{
+    color: $font-color-1 !important;
+    background-color: $background-color !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fontColor{
+    color: $font-color-1;
+}
+
+.loginPage{
+    width: 1000px;
+    height: 600px;
+    align-items: center;
+    color: $font-color-1;
+}
