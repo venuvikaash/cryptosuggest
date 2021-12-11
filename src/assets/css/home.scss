@@ -9,3 +9,8 @@
 .logoSize{
     height: 50px !important;
 }
+
+.backGround{
+    h2, h3{color: $font-color-1 !important;}
+    background-color: $background-color !important;
+}
