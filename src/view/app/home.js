@@ -1,16 +1,19 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import BitCoin from '../../assets/icons8-bitcoin.svg'
 
 function HomePage() {
     return (
-        <div className='bit-1'>
-            <div>
-                <h2 className='justify-content-center'>Hello Crypto !!</h2>
+        <div className='bit-1 d-flex justify-content-between'>
+            <div className='logoSize'>
+                <img src={BitCoin} alt='' className='m-2' />
             </div>
-            <div>
-                <h3>home</h3>
-                <h3>bitcoin</h3>
-                <h3>API</h3>
-                <h3>contact</h3>
+            <h2 className="m-2">hello Crypto!!</h2>
+            <div className='d-flex justify-content-end'>
+                <p className='mx-3 my-2'>home</p>
+                <p className='mx-3 my-2'>bitcoin</p>
+                <p className='mx-3 my-2'>API</p>
+                <p className='mx-3 my-2'>contact</p>
             </div>
         </div>
     );
