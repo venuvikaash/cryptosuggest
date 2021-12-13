@@ -9,7 +9,7 @@
 .logoSize{
     height: 50px !important;
     width: 50px !important;
-    background-color: $card-color;
+    background-color: $hover-color;
     fill: $font-color-1;
 }
 
@@ -27,5 +27,22 @@
     width: 1000px;
     height: 600px;
     align-items: center;
-    color: $font-color-1;
+    color: $hover-color;
+}
+
+.card{
+    height:400px;
+    width:300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: $card-color;
+}
+
+.btn-login{
+    color: white;
+    background-color: $hover-color;
+}
+
+.btn-login:hover{
+    background-color: $background-color;
+    color:white;
 }
