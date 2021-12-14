@@ -24,17 +24,32 @@
 }
 
 .loginPage{
-    width: 1000px;
     height: 600px;
     align-items: center;
-    color: $hover-color;
+    color: #fff;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-family: 'Readex Pro', sans-serif;
+    
+    input{
+        border-radius: 5px 5px;
+        border: 0.1px solid #65739d;
+    }
+}
+
+.loginFont{
+    font-family: 'Mukta', sans-serif;;
+}
+.loginHeading{
+    font-size: 4rem;
 }
 
 .card{
     height:400px;
     width:300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: $card-color;
+    background-color: #fff;
+    color: $hover-color;
 }
 
 .btn-login{
